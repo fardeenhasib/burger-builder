@@ -10,13 +10,13 @@ const Main = props => {
         <div>
             <Header />
             <div className="container">
-                    <Route path="/order" component={Order} />
-                    <Route path="/checkout" component={Checkout} />
-                    <Route path="/" exact component={BurgerBuilder} />
+                <Route path="/order" component={Order} />
+                <Route path="/checkout" component={Checkout} />
+                <Route path="/burger-builder" exact component={BurgerBuilder} />
             </div>
         </div>
     );
-    
+
 }
 
 export default Main;
